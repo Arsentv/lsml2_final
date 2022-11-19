@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 import telegram
 from telegram.ext import Updater, MessageHandler, Filters
 from telegram.ext import CommandHandler
@@ -27,4 +21,3 @@ dispatcher.add_handler(CommandHandler("start", start))
 
 dispatcher.add_handler(MessageHandler(Filters.text, get_result))
 updater.start_polling()
-
