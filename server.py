@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
 
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
