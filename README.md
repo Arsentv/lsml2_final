@@ -32,10 +32,10 @@ Optimal hyperparameters:
 	- docker-compose.yml: used to start the bot 
 	- requirements.txt: used to specify dependencies
 	
-| LEFT | CENTER | RIGHT |
-|----------------|:---------:|----------------:|
-| По левому краю | По центру | По правому краю |
-| текст | текст | текст |
+| LEFT | LEFT | 
+|----------------|:---------:|
+| smsspamcollection | dataset | 
+
 
 **User instructions**: 
 
