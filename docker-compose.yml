@@ -9,6 +9,7 @@ services:
       - 5000:5000
     environment:
       - TELEGRAM_TOKEN=${TELEGRAM_TOKEN}
+    command: python /codebase/server.py
     volumes:
       - "/codebase:/codebase"
       - "/storage:/storage"
