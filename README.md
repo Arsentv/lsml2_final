@@ -32,9 +32,15 @@ Optimal hyperparameters:
 	- docker-compose.yml: used to start the bot 
 	- requirements.txt: used to specify dependencies
 	
-| LEFT | LEFT | 
-|----------------|:---------:|
+| name | function | 
+|----------------|---------|
 | smsspamcollection | dataset | 
+| spamham.ipynb | notebook with model generation code | 
+| spamham.bin | trained model  | 
+| server.py, telegram_bot.py |  bot's codebase| 
+| Dockerfile | the file to build the bot image  | 
+| docker-compose.yml | used to start the bot  | 
+| requirements.txt |  used to specify dependencies | 
 
 
 **User instructions**: 
