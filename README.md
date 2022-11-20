@@ -20,17 +20,11 @@ Optimal hyperparameters:
 **Client**: Telegram Bot
 
 
+![IMG_4568](https://user-images.githubusercontent.com/105422158/202902256-6d3d6548-04e6-405d-a438-fa031cd0e407.PNG)
 
 
 **Repo structure**: 
 
-	- smsspamcollection: dataset
-	- spamham.ipynb: notebook with model generation code 
-	- spamham.bin: trained model 
-	- server.py, telegram_bot.py: bot's codebase
-	- Dockerfile: the file to build the bot image 
-	- docker-compose.yml: used to start the bot 
-	- requirements.txt: used to specify dependencies
 	
 | name | function | 
 |----------------|---------|
