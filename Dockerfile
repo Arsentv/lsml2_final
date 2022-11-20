@@ -19,6 +19,7 @@ ADD . /codebase
 WORKDIR /codebase
 
 RUN pip install -r requirements.txt
+RUN pip install python-telegram-bot
 RUN chmod +x /codebase/telegram_bot.py
 
 CMD python3 /codebase/telegram_bot.py;
