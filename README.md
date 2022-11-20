@@ -4,6 +4,8 @@
 
 **Model**: Fine-Tuning BERT for Text Classification
 
+the original project https://towardsdatascience.com/fine-tuning-bert-for-text-classification-54e7df642894
+
 Optimal hyperparameters:
 	
 	- Batch size: 16 
